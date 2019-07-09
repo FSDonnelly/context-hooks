@@ -6,7 +6,7 @@ import PageContent from './PageContent';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
 
-function App() {
+export default function App() {
   return (
     <LanguageProvider>
       <ThemeProvider>
@@ -17,6 +17,4 @@ function App() {
       </ThemeProvider>
     </LanguageProvider>
   );
-}
-
-export default App;
+};
